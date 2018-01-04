@@ -26,7 +26,7 @@ Once you've created the configuration file, you can start tracking store changes
 If you happen to have Python 3.6 installed, you can simply run the diff runner.
 `python diff_runner.py`
 
-### Python 3.6 Usage
+### Docker Usage
 If you do not have Python 3.6 installed on your machine, but do have Docker
 available, you can also run the diff tool very easily.
 
