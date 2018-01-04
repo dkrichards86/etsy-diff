@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  diff:
+    build: .
+    image: etsy_diff_image:1.0.0
+    container_name: etsy_diff
+    command: python diff_runner.py
+    volumes:
+      - ./config.ini:/code/config.ini
+      - etsy_diff_data:/code/data
+
+volumes:
+  etsy_diff_data:

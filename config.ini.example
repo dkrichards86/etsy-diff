@@ -1,0 +1,5 @@
+[api]
+key=YOUR_ETSY_API_KEY
+
+[shops]
+ids=YOUR,COMMA,SEPARATED,SHOP,IDS
